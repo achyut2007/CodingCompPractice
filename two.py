@@ -8,7 +8,7 @@ class Programmer:
         for i in self.skills:
             print(i)
 Achyut = Programmer("Achyut Srivastava", 40000000, ['Python', 'HTML', 'CSS', 'C', 'Javascript', 'Django'])
-Prakhar = Programmer("PKP", 400000, ['Python', 'Javascript', 'HTML','CSS' ])
+Prakhar = Programmer("PKP", 4000000000000000000000, ['Python', 'Javascript', 'HTML','CSS' ])
 
 Achyut.getSkills()
 Prakhar.getSkills()
