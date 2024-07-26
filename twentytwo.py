@@ -14,8 +14,11 @@ while opt:
             won=True
             break
         else:
-            print(i)                            
-    if a == 'y':
+            print(i)
+    b = input('Do You wanna continue??(y/n)')                         
+    if b == 'y':
         continue
-    else:
+    elif b == 'n':
         opt = False
+    else:
+        print('Enter a valid option.')
