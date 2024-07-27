@@ -6,7 +6,7 @@ def bubblesort(arr):
                 arr[j],arr[j+1]=arr[j+1],arr[j]
     return(arr)
 a = [8,4,6,2,0,11,3]
-# print(bubblesort(a))
+print(bubblesort(a), 'bubble sort')
 
 def insort(arr):
     for i in range(1, len(arr)):
@@ -17,5 +17,5 @@ def insort(arr):
             j -= 1
         else:
             arr[j+1]=key
-    print(f'sorted list: {arr}')
+    print(f'sorted list: {arr} insertion sort')
 insort(a)
