@@ -14,5 +14,5 @@ elif d<80 and d>=60:
 elif d<60 and d>=30:
     print("C Grade, get better")
 else:
-    print("padh le bsdk")
+    print("padh le")
 
