@@ -15,4 +15,3 @@ elif d<60 and d>=30:
     print("C Grade, get better")
 else:
     print("padh le")
-
